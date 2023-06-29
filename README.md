@@ -8,6 +8,7 @@ Starting this side-project at the suggestion of my employer to dust off my full-
 - [Set up a local PostgreSQL Database on macOS](https://www.youtube.com/watch?v=wTqosS71Dc4)
 - [PostgreSQL CRASH COURSE - Learn PostgreSQL in 2022](https://www.youtube.com/watch?v=zw4s3Ey8ayo)
 - [How to Create a Database Design From an Idea](https://www.youtube.com/watch?v=5RpUmDEsn1k)
+- [Build restful API with PostgreSQL and Express](https://www.youtube.com/watch?v=_Mun4eOOf2Q)
 
 ## Tools Used
 - [https://postgresapp.com/](https://postgresapp.com/)

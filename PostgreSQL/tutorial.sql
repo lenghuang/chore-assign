@@ -42,11 +42,6 @@ SELECT * FROM "profile" WHERE age > 27;
 
 UPDATE "profile" SET age = 30 WHERE id = 1;
 
--- Use DELETE and then WHERE to specify row. Unspecified will delete the table.
-
-DELETE FROM "profile" WHERE id = 3;
-DELETE FROM "profile";
-DROP TABLE "profile";
 
 -- ##########################################
 -- # The Concept of a "Relational" Database #
@@ -96,3 +91,10 @@ SELECT profile.name,
 FROM profile JOIN post ON post.profile_id = profile.id;
 
 
+-- Use DELETE and then WHERE to specify row. Unspecified will delete the table.
+
+DELETE FROM "profile" WHERE id = 3;
+DELETE FROM "profile";
+DELETE FROM "post";
+DROP TABLE "post"
+DROP TABLE "profile"
