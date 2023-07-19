@@ -23,7 +23,21 @@ const getPersonById = (req, res) => {
     });
 };
 
+const addStudent = (req, res) => {
+    const { name } = req.body;
+    // Here you would do validation checks. Use js deconstruction to get
+    // the variables. If I had an email, I would do like
+    // const { name, email } and do some string checking.
+    // Here I check if name exists.
+    pool.query(queries.checkNameExists, [name], (error, results) => {
+        if (results.rows.length) {
+            res.send("Name already in the cack");
+        }
+    })
+}
+
 module.exports = {
     getPerson,
     getPersonById,
+    addStudent,
 };

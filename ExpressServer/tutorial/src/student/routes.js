@@ -8,7 +8,7 @@ const controller = require('./controller.js');
 const router = Router();
 
 router.get('/person/', controller.getPerson);
-
+router.post('/person/', controller.addPerson);
 router.get('/person/:id', controller.getPersonById); // colon indicates a parameter
 
 module.exports = router;

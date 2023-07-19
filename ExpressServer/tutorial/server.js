@@ -1,5 +1,5 @@
 // Following https://www.youtube.com/watch?v=DihOP19LQdg
-// Up to 7:05 in the video
+// Up to 39:43 in the video
 
 const express = require('express');
 const studentRoutes = require('./src/student/routes.js');
